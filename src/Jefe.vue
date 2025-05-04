@@ -51,7 +51,9 @@
                :class="['bg-white p-4 rounded-lg border-2 shadow cursor-pointer transition hover:shadow-md', getPriorityBorderClass(traslado.prioridad)]"
                @click="toggleExpand(traslado)">
             <p><strong>Ubicación:</strong> {{ traslado.ubicacion }}</p>
+            <p><strong>Habitación del paciente:</strong> {{ traslado.habitacion_actual }}</p>
             <p><strong>Destino:</strong> {{ traslado.destino }}</p>
+            <p><strong>Habitación de destino:</strong> {{ traslado.habitacion_destino }}</p>
             <p><strong>Celador:</strong> {{ traslado.celador_id || 'Sin asignar' }}</p>
             <p><strong>Hora de Envío:</strong> {{ traslado.hora_envio }}</p>
             <p><strong>Hora de Aceptación:</strong> {{ traslado.hora_aceptado || 'No aceptado' }}</p>
@@ -81,7 +83,9 @@
                :class="['bg-white p-4 rounded-lg border-2 shadow cursor-pointer transition hover:shadow-md', getPriorityBorderClass(traslado.prioridad)]"
                @click="toggleExpand(traslado)">
             <p><strong>Ubicación:</strong> {{ traslado.ubicacion }}</p>
+            <p><strong>Habitación del paciente:</strong> {{ traslado.habitacion_actual }}</p>
             <p><strong>Destino:</strong> {{ traslado.destino }}</p>
+            <p><strong>Habitación de destino:</strong> {{ traslado.habitacion_destino }}</p>
             <p><strong>Celador:</strong> {{ traslado.celador_id || 'Sin asignar' }}</p>
             <p><strong>Hora de Envío:</strong> {{ traslado.hora_envio }}</p>
             <p><strong>Hora de Aceptación:</strong> {{ traslado.hora_aceptado || 'No aceptado' }}</p>
